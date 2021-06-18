@@ -37,5 +37,3 @@ def mvnHome
 		      to: "anuj_sharma401@yahoo.com"
 		    )
 	}
-   }
-}
