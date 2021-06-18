@@ -1,4 +1,7 @@
-def mvnHome 
+node('master') {
+  ansiColor('xterm') {
+   
+  def mvnHome 
   stage ('Preparation'){
 	mvnHome = tool 'Maven3'	
 	}
@@ -37,3 +40,5 @@ def mvnHome
 		      to: "anuj_sharma401@yahoo.com"
 		    )
 	}
+   }
+}
